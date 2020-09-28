@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zombie Run</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" type="text/css" href="zombieRun.css">
+</head>
+
+<body onload="moveTitleZombieRepeat()" onkeydown="checkKey(event)">
+  
+  <div id="pageContent">
+    <div id="presentContainer">
+      <h1 id="doodysArcade">Doody's Arcade</h1>
+    </div>
+    <h2 id="presents">Presents</h2>
+    <div id="titleHolder">
+      <h1 id="titleText">Zombie<br>Run</h1>
+      <img id="arcadeMachineGIF" src="ZombieRunLandingPageTitle.png">
+      <div onclick="blackSquareTransition(), loadDescriptionPage()" id="startButton">
+        <h3>Start</h3>
+      </div>
+    </div>
+    <img id="zombieGIF" src="zombieGIF.gif">
+  </div><!--Landing Page Content End-->
+  
+  <div id="topBlackSquare">.</div>
+  <div id="bottomBlackSquare">.</div>
+
+</body>
+<script type="text/javascript" src="zombieRun.js"></script>
+</html>
