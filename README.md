@@ -1,4 +1,10 @@
-# ZombieRun
-A browser-based Javascript Game
+# Zombie Run
+A browser-based Javascript Game by Daniel Miles
 
-![Alt Text](https://piskel-imgstore-b.appspot.com/img/46aad897-019b-11eb-9710-bf0967a6ee91.gif)
+# Description
+- Each page is rendered on the same HTML page by replacing the HTML using javascript. This allows for seamless transitions between pages without loading another web page.
+- Currently only playable on desktop with a keyboard. Mobile version is in development.
+- Zombies move in response to player's position.
+
+# Known Issues
+- GIF not rendering on Github html file.
