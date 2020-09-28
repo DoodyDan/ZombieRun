@@ -1,4 +1,4 @@
 # ZombieRun
 A browser-based Javascript Game
 
-![](zombieGIF.gif)
+![Alt Text](zombieGIF.gif)
