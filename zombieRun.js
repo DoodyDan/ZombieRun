@@ -43,7 +43,7 @@ function loadLandingPage() {
 }
   function changeContentForLandingPage() {
   var content = document.getElementById("pageContent");
-  content.innerHTML = '<div id="presentContainer"><h1 id="doodysArcade">Doody&apos;s Arcade</h1></div><h2 id="presents">Presents</h2><div id="titleHolder"><h1 id="titleText">Zombie<br>Run</h1><img id="arcadeMachineGIF" src="https://piskel-imgstore-b.appspot.com/img/f8037f6b-fa74-11ea-9292-bb9be53876e6.gif"><div onclick="blackSquareTransition(), loadDescriptionPage()" id="startButton"><h3>Start</h3></div></div><img id="zombieGIF" src="https://piskel-imgstore-b.appspot.com/img/da659507-f9a5-11ea-a140-4b0bc200bcb9.gif">';
+  content.innerHTML = '<div id="presentContainer"><h1 id="doodysArcade">Doody&apos;s Arcade</h1></div><h2 id="presents">Presents</h2><div id="titleHolder"><h1 id="titleText">Zombie<br>Run</h1><img id="arcadeMachineGIF" src="images/ZombieRunLandingPageTitle"><div onclick="blackSquareTransition(), loadDescriptionPage()" id="startButton"><h3>Start</h3></div></div><img id="zombieGIF" src="https://github.com/DoodyDan/ZombieRun/blob/master/images/ZombieGIF.gif">';
 }
 
 function loadCharacterPage() {
